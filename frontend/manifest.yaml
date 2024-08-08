@@ -133,7 +133,7 @@ spec:
       volumes:
       - name: nginx-conf
         configMap:
-          name: frontned
+          name: frontend
           items:
           - key: nginx.conf
             path: nginx.conf
